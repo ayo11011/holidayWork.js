@@ -250,3 +250,48 @@ function isLeapYear(year) {
     console.log(isPlural("change"))
     console.log(isPlural("dudes"))
     console.log(isPlural("magic"))
+
+    // Q21 
+    function moodToday(mood = 'neutral') {
+        return `Today, I am feeling ${mood}`
+      }
+      console.log(moodToday("happy"))
+      console.log(moodToday("sad"))
+      console.log(moodToday())
+      
+
+    // Q22
+
+    function match(s1, s2) {
+        return s1.toLowerCase() === s2.toLowerCase();
+      }
+      
+      console.log(match("hello", "hELLo")); // Output: true
+      console.log(match("motive", "emotive")); // Output: false
+      console.log(match("venom", "VENOM")); // Output: true
+      console.log(match("mask", "mAskinG")); // Output: false
+      
+
+    // Q23
+
+
+    // Q24
+
+
+    // Q25
+
+
+    // Q26
+
+
+    // Q27
+
+
+    // Q28
+
+
+    // Q29
+
+
+    // Q30
+
